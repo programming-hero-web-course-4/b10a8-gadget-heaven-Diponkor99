@@ -21,7 +21,7 @@ console.log(FindData)
   <div className="hero-content flex-col lg:flex-row ">
     <img
       src={product_image}
-      className=" rounded-lg text-start " />
+      className=" rounded-lg w-auto h-auto md:w-[424.31px] md:h-[503px] " />
     <div className="flex-3/4">
       <h1 className="text-5xl font-bold ">{product_title}</h1>
       <p className="my-3">price: ${price}</p>
