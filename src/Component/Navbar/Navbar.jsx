@@ -3,11 +3,12 @@ import { BsHeartFill } from "react-icons/bs";
 import { NavLink, useLocation } from 'react-router-dom';
 import Banner from '../Home/Banner';
 import bannerImg from '../../assets/banner.jpg'
+import '../Navbar/Navbar.css'
 const Navbar = () => {
        
     const location=useLocation()
     const locationPath=location.pathname
-    console.log(locationPath)
+    // console.log(locationPath)
 
     const pathlocation = locationPath === '/' ? 'bg-purple-500 text-white p-3 rounded-xl pb-20 md:pb-50' : '';
     return (
@@ -20,10 +21,10 @@ const Navbar = () => {
   </div>
 
 <div className='flex flex-1/3 justify-between'>
-<div className='active gap-3 flex items-center'>
+<div className='gap-3 flex items-center'>
     <NavLink to='./'>Home</NavLink>
-    <NavLink to='/statistics'>Statistics</NavLink>
-    <NavLink to='/Dashboard'>Dashboard</NavLink>
+    <NavLink to='./statistics'>Statistics</NavLink>
+    <NavLink to='./Dashboard'>Dashboard</NavLink>
   </div>
  
   <section className='flex gap-2 items-center'>
@@ -63,9 +64,9 @@ const Navbar = () => {
         locationPath==='/' ?  <Banner></Banner>:" "
        }
         </div>
-       <div className='w-3/5 md:w-2/5 mx-auto p-3 md:p-5 border-2  border-amber-50 backdrop-blur-2xl rounded-xl  -mt-20 md:-mt-40'>
+       <div >
        {
-             locationPath==='/' ? <img src={bannerImg} className='mx-auto  rounded-xl ' alt="bannerImg" />:''
+             locationPath==='/' ? <div className='w-3/5 md:w-2/5 mx-auto p-3 md:p-5 border-2  border-amber-50 backdrop-blur-2xl rounded-xl  -mt-20 md:-mt-40'><img src={bannerImg} className='mx-auto  rounded-xl ' alt="bannerImg" /></div>:''
         }
        </div>
 

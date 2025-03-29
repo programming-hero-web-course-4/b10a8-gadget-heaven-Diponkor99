@@ -1,0 +1,121 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://i.ibb.co.com/s38RHy2/macbook-air-apple-official-site.jpg",
+    "category": "Computers",
+    "price": 2499,
+    "description": "16-inch MacBook Pro with M1 Pro chip",
+    "Specification": ["16GB RAM", "512GB SSD", "Apple M1 Pro"],
+    "availability": true,
+    "rating": 4.8
+  
+  },
+  {
+    "product_id": 2,
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.ibb.co.com/3vJgN23/Apple-i-Phone-15-Pro-Max-blue-titanium-featured-image-packshot-review.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "6.1-inch Super Retina XDR display",
+    "Specification": ["128GB Storage", "5G Connectivity", "ProMotion Display"],
+    "availability": true,
+    "rating": 4.9
+    
+  },
+  {
+    "product_id": 3,
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://i.ibb.co.com/k6vh10N/Apple-Watch-S8-stainless-steel-silver-220907-inline-jpg-large.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "Advanced health features and always-on display",
+    "Specification": ["GPS", "Heart Rate Monitor", "Sleep Tracking"],
+    "availability": false,
+    "rating": 4.7
+   
+  },
+  {
+    "product_id": 4,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/CmzhZKs/71fx-AH5-Jn-HL.jpg",
+    "category": "Computers",
+    "price": 1200,
+    "description": "Compact and powerful ultrabook",
+    "Specification": ["Intel i7", "16GB RAM", "256GB SSD"],
+    "availability": true,
+    "rating": 4.5
+    
+  },
+  {
+    "product_id": 5,
+    "product_title": "Samsung Galaxy S22 Ultra",
+    "product_image": "https://i.ibb.co.com/qpRgTp2/Samsung-Galaxy-S22-Ultra-image-600x508.webp",
+    "category": "Phones",
+    "price": 850,
+    "description": "Flagship Android smartphone with excellent camera",
+    "Specification": ["128GB Storage", "Triple Camera", "5G"],
+    "availability": true,
+    "rating": 4.6
+   
+  },
+  {
+    "product_id": 6,
+    "product_title": "Anker PowerCore 20000",
+    "product_image": "https://i.ibb.co.com/wzS0DVb/anker-powercore-essential-20000mah-power-bank.webp",
+    "category": "Power Banks",
+    "price": 60,
+    "description": "Portable charger with fast charging technology",
+    "Specification": ["20000mAh", "USB-C", "Quick Charge 3.0"],
+    "availability": true,
+    "rating": 4.8
+    
+  },
+  {
+    "product_id": 7,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/7JQhdK1/HP-Spectre-x360-15-Price-in-BD.webp",
+    "category": "Computers",
+    "price": 1400,
+    "description": "Convertible laptop with touch screen",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.4
+  
+  },
+  {
+    "product_id": 8,
+    "product_title": "OnePlus 10 Pro",
+    "product_image": "https://i.ibb.co.com/ypx004x/oneplus-10-pro-2.jpg",
+    "category": "Phones",
+    "price": 750,
+    "description": "High-performance Android phone with sleek design",
+    "Specification": ["256GB Storage", "Triple Camera", "5G"],
+    "availability": false,
+    "rating": 4.3
+ 
+  },
+  {
+    "product_id": 9,
+    "product_title": "Mi Power Bank 3 Pro",
+    "product_image": "https://i.ibb.co.com/54DDwqg/xiaomi-mi-3-pro-power-bank-bd.jpg",
+    "category": "Power Banks",
+    "price": 55,
+    "description": "High-capacity power bank with multiple output ports",
+    "Specification": ["20000mAh", "Dual USB", "18W Fast Charge"],
+    "availability": true,
+    "rating": 4.6
+
+  },
+  {
+    "product_id": 10,
+    "product_title": "Lenovo legion 5 pro",
+    "product_image": "https://i.ibb.co.com/4Vzx96c/legion-5-pro-16iah7h-i7-12700h-rtx-30600-05-500x500.jpg",
+    "category": "Computers",
+    "price": 850,
+    "description": "Affordable laptop with powerful features",
+    "Specification": ["15-inch Display", "256GB SSD", "8GB RAM"],
+    "availability": true,
+    "rating": 4.3
+  }
+]

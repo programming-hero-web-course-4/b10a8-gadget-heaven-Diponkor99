@@ -10,11 +10,14 @@ import Root from './Component/Root/Root.jsx';
 import Statics from './Component/Statistics/Statics.jsx';
 import DashBoard from './Component/Dashboard/DashBoard.jsx';
 import Home from './Component/Home/Home.jsx';
+import CardDetiles from './Component/CardDetiles/CardDetiles.jsx';
+import ErrorPage from './Component/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:'/statistics',
@@ -27,6 +30,12 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+      },
+      {
+        path:'cardDetiles/:product_id',
+        element:<CardDetiles></CardDetiles>,
+        loader:()=>fetch('../public/data.json')
+
       }
     ]
   },
